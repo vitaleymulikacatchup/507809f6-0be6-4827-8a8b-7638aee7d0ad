@@ -75,7 +75,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Family portrait photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547591908-ndk30jhf.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
               imageAlt: "Product photography"
             },
             {
