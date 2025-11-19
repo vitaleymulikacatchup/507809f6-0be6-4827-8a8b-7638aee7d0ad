@@ -6,7 +6,7 @@ import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarou
 import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import MetricCardThree from '@/components/sections/metric/MetricCardThree';
+import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
