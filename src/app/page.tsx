@@ -55,7 +55,7 @@ export default function PhotoGalleryPage() {
           ]}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547586474-9dqyondm.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
               imageAlt: "Professional landscape photography"
             },
             {
