@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "PhotoGallery",
     images: [
       {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547269163-r5d3d8xe.jpg",
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547586474-9dqyondm.jpg",
         alt: "Professional photography services"
       }
     ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhotoGallery - Professional Photography Services",
     description: "Capture life's beautiful moments with our professional photography services",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547269163-r5d3d8xe.jpg"]
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547586474-9dqyondm.jpg"]
   },
   robots: {
     index: true,

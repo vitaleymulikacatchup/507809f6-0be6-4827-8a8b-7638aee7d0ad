@@ -11,7 +11,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Camera, Sparkles, Package, Trophy, Users, MessageCircle, Mail, Users as UsersIcon, Camera as CameraIcon, Award, User, Instagram, Globe, Linkedin } from "lucide-react";
+import { Camera, Sparkles, Package, Trophy, Users, MessageCircle, Mail } from "lucide-react";
 
 export default function PhotoGalleryPage() {
   return (
@@ -19,12 +19,12 @@ export default function PhotoGalleryPage() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="sharp"
-      contentWidth="wide"
-      sizing="comfortable"
+      contentWidth="large"
+      sizing="default"
       background="plain"
       cardStyle="glass-depth"
-      primaryButtonStyle="modern"
-      secondaryButtonStyle="outline"
+      primaryButtonStyle="default"
+      secondaryButtonStyle="default"
       showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
@@ -55,31 +55,31 @@ export default function PhotoGalleryPage() {
           ]}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547269163-r5d3d8xe.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547586474-9dqyondm.jpg",
               imageAlt: "Professional landscape photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547270692-hibsaooz.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547587574-2u0k27g4.jpg",
               imageAlt: "Wedding photography portrait"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547271927-igh34p4w.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547588550-mycwpc0b.jpg",
               imageAlt: "Nature wildlife photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547275412-58zs88cy.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547589889-iff36gbh.jpg",
               imageAlt: "Urban architecture photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547276534-7h9zq4ei.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547590869-akxaaidc.jpg",
               imageAlt: "Family portrait photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547277663-crhii3lv.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547591908-ndk30jhf.jpg",
               imageAlt: "Product photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547282681-fqjnc3n0.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547593250-2dltbx1k.jpg",
               imageAlt: "Event photography"
             }
           ]}
@@ -105,28 +105,28 @@ export default function PhotoGalleryPage() {
               id: "1",
               title: "Creative Tools & Editing",
               description: "Professional photo editing and enhancement services using industry-leading software to bring your vision to life",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547284056-zvzuayq4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547594400-v6kyle6l.jpg",
               imageAlt: "Photo editing workspace"
             },
             {
               id: "2",
               title: "Portfolio Showcase",
               description: "Beautiful online galleries to display and share your photos with clients and loved ones",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547286651-7mniecaq.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547595462-twgkb94j.jpg",
               imageAlt: "Photography portfolio display"
             },
             {
               id: "3",
               title: "Client Management",
               description: "Personalized service with dedicated support throughout your photography journey",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547289025-oox8n7qu.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547596557-5eguanw2.jpg",
               imageAlt: "Photographer consulting with clients"
             },
             {
               id: "4",
               title: "Print Services",
               description: "High-quality printing services for your favorite photographs in various formats and sizes",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547290232-vwjzkldb.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547597474-unzqywyk.jpg",
               imageAlt: "Professional photo printing"
             }
           ]}
@@ -150,7 +150,7 @@ export default function PhotoGalleryPage() {
               price: "$299",
               rating: 5,
               reviewCount: "127",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547293431-zc4g1hnp.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547598441-3ve7jds5.jpg",
               imageAlt: "Basic photography package"
             },
             {
@@ -160,7 +160,7 @@ export default function PhotoGalleryPage() {
               price: "$599",
               rating: 5,
               reviewCount: "89",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547294567-c9fdwp90.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547599469-swaiu20p.jpg",
               imageAlt: "Premium photography package"
             },
             {
@@ -170,7 +170,7 @@ export default function PhotoGalleryPage() {
               price: "$899",
               rating: 5,
               reviewCount: "156",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547299576-jc2yifkr.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547600310-ajwmfyac.jpg",
               imageAlt: "Deluxe photography package"
             }
           ]}
@@ -189,19 +189,19 @@ export default function PhotoGalleryPage() {
           metrics={[
             {
               id: "1",
-              icon: UsersIcon,
+              icon: "Users",
               title: "Happy Clients",
               value: "500+"
             },
             {
               id: "2",
-              icon: CameraIcon,
+              icon: "Camera",
               title: "Photos Captured",
               value: "50K+"
             },
             {
               id: "3",
-              icon: Award,
+              icon: "Award",
               title: "Awards Won",
               value: "25+"
             }
@@ -224,15 +224,15 @@ export default function PhotoGalleryPage() {
               name: "Sarah Martinez",
               role: "Lead Photographer",
               description: "Award-winning photographer specializing in weddings and portraits with over 10 years of experience",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547304897-0ubr6xx5.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547604716-23u7emsm.jpg",
               imageAlt: "Sarah Martinez photographer",
               socialLinks: [
                 {
-                  icon: Instagram,
+                  icon: "Instagram",
                   url: "https://instagram.com/sarahphoto"
                 },
                 {
-                  icon: Globe,
+                  icon: "Globe",
                   url: "https://sarahmartinez.photo"
                 }
               ]
@@ -242,15 +242,15 @@ export default function PhotoGalleryPage() {
               name: "Michael Chen",
               role: "Commercial Photographer",
               description: "Expert in commercial and product photography, bringing brands to life through compelling visuals",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547306624-icfajmhc.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547605610-g9p0mzso.jpg",
               imageAlt: "Michael Chen photographer",
               socialLinks: [
                 {
-                  icon: Instagram,
+                  icon: "Instagram",
                   url: "https://instagram.com/mikechenphoto"
                 },
                 {
-                  icon: Linkedin,
+                  icon: "Linkedin",
                   url: "https://linkedin.com/in/michaelchen"
                 }
               ]
@@ -260,15 +260,15 @@ export default function PhotoGalleryPage() {
               name: "Emma Rodriguez",
               role: "Event Photographer",
               description: "Captures the energy and emotion of special events, from corporate gatherings to family celebrations",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547307874-m306av8s.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547606571-acwtc4cb.jpg",
               imageAlt: "Emma Rodriguez photographer",
               socialLinks: [
                 {
-                  icon: Instagram,
+                  icon: "Instagram",
                   url: "https://instagram.com/emmaphoto"
                 },
                 {
-                  icon: Globe,
+                  icon: "Globe",
                   url: "https://emmarodriguez.com"
                 }
               ]
@@ -291,7 +291,7 @@ export default function PhotoGalleryPage() {
               name: "Jessica Williams",
               handle: "@jessicaw",
               testimonial: "Absolutely stunning wedding photos! Sarah captured every precious moment perfectly. The attention to detail and artistic vision exceeded our expectations.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547308997-wgpn4uxz.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547607720-fpwva0iq.jpg",
               imageAlt: "Jessica Williams"
             },
             {
@@ -299,7 +299,7 @@ export default function PhotoGalleryPage() {
               name: "David Brown",
               handle: "@davidbrown",
               testimonial: "Professional headshots that really made an impact on my business. Michael's expertise in commercial photography is unmatched.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547311412-1l19uw89.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547608681-5py71ygh.jpg",
               imageAlt: "David Brown"
             },
             {
@@ -307,7 +307,7 @@ export default function PhotoGalleryPage() {
               name: "Lisa Anderson",
               handle: "@lisaanderson",
               testimonial: "Emma made our family portrait session so comfortable and fun. The final photos are beautiful memories we'll treasure forever.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547314016-ttnd87wr.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547609716-xcio5y4c.jpg",
               imageAlt: "Lisa Anderson"
             },
             {
@@ -315,7 +315,7 @@ export default function PhotoGalleryPage() {
               name: "Mark Thompson",
               handle: "@markthompson",
               testimonial: "Outstanding event photography for our corporate gathering. The team was professional and delivered high-quality images on time.",
-              icon: User
+              icon: "User"
             }
           ]}
         />
@@ -325,10 +325,10 @@ export default function PhotoGalleryPage() {
         <ContactSplit
           tag="Get In Touch"
           title="Ready to capture your story?"
-          description="Contact us today to discuss your photography needs and let us help you preserve your most precious memories."
+          description="Contact us today to discuss your photography needs and let us help you preserve your most precious moments."
           tagIcon={Mail}
           mediaPosition="right"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547269163-r5d3d8xe.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547586474-9dqyondm.jpg"
           imageAlt="Photography contact"
           inputPlaceholder="Enter your email"
           buttonText="Get Quote"
