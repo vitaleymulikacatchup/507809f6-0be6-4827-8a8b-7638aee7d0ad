@@ -79,7 +79,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Product photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547593250-2dltbx1k.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549545844-8e4ft1yj.jpg",
               imageAlt: "Event photography"
             }
           ]}
