@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -11,7 +11,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Camera, Sparkles, Package, Trophy, Users, MessageCircle, Mail } from "lucide-react";
+import { Camera, Sparkles, Package, Trophy, Users, MessageCircle, Mail, Instagram, Globe, Linkedin } from "lucide-react";
 
 export default function PhotoGalleryPage() {
   return (
@@ -20,11 +20,11 @@ export default function PhotoGalleryPage() {
       defaultTextAnimation="entrance-slide"
       borderRadius="sharp"
       contentWidth="large"
-      sizing="default"
+      sizing="medium"
       background="plain"
       cardStyle="glass-depth"
-      primaryButtonStyle="default"
-      secondaryButtonStyle="default"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
       showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
@@ -102,28 +102,28 @@ export default function PhotoGalleryPage() {
           textboxLayout="default"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Creative Tools & Editing",
               description: "Professional photo editing and enhancement services using industry-leading software to bring your vision to life",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547594400-v6kyle6l.jpg",
               imageAlt: "Photo editing workspace"
             },
             {
-              id: "2",
+              id: 2,
               title: "Portfolio Showcase",
               description: "Beautiful online galleries to display and share your photos with clients and loved ones",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547595462-twgkb94j.jpg",
               imageAlt: "Photography portfolio display"
             },
             {
-              id: "3",
+              id: 3,
               title: "Client Management",
               description: "Personalized service with dedicated support throughout your photography journey",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547596557-5eguanw2.jpg",
               imageAlt: "Photographer consulting with clients"
             },
             {
-              id: "4",
+              id: 4,
               title: "Print Services",
               description: "High-quality printing services for your favorite photographs in various formats and sizes",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547597474-unzqywyk.jpg",
@@ -189,19 +189,19 @@ export default function PhotoGalleryPage() {
           metrics={[
             {
               id: "1",
-              icon: "Users",
+              icon: Users,
               title: "Happy Clients",
               value: "500+"
             },
             {
               id: "2",
-              icon: "Camera",
+              icon: Camera,
               title: "Photos Captured",
               value: "50K+"
             },
             {
               id: "3",
-              icon: "Award",
+              icon: Trophy,
               title: "Awards Won",
               value: "25+"
             }
@@ -228,11 +228,11 @@ export default function PhotoGalleryPage() {
               imageAlt: "Sarah Martinez photographer",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/sarahphoto"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://sarahmartinez.photo"
                 }
               ]
@@ -246,11 +246,11 @@ export default function PhotoGalleryPage() {
               imageAlt: "Michael Chen photographer",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/mikechenphoto"
                 },
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/michaelchen"
                 }
               ]
@@ -264,11 +264,11 @@ export default function PhotoGalleryPage() {
               imageAlt: "Emma Rodriguez photographer",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/emmaphoto"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://emmarodriguez.com"
                 }
               ]
@@ -315,7 +315,7 @@ export default function PhotoGalleryPage() {
               name: "Mark Thompson",
               handle: "@markthompson",
               testimonial: "Outstanding event photography for our corporate gathering. The team was professional and delivered high-quality images on time.",
-              icon: "User"
+              icon: Users
             }
           ]}
         />
