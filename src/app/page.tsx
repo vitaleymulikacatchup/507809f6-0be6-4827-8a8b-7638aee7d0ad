@@ -71,7 +71,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Urban architecture photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547590869-akxaaidc.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
               imageAlt: "Family portrait photography"
             },
             {
