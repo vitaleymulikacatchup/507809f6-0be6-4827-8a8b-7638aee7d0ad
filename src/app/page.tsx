@@ -59,7 +59,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Professional landscape photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547587574-2u0k27g4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
               imageAlt: "Wedding photography portrait"
             },
             {
