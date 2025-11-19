@@ -59,11 +59,11 @@ export default function PhotoGalleryPage() {
               imageAlt: "Professional landscape photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763557393081-v1laf5di.jpg",
               imageAlt: "Wedding photography portrait"
             },
             {
-              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763557393081-v1laf5di.jpg",
               imageAlt: "Nature wildlife photography"
             },
             {
@@ -71,7 +71,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Urban architecture photography"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763557393081-v1laf5di.jpg",
               imageAlt: "Family portrait photography"
             },
             {
