@@ -63,7 +63,7 @@ export default function PhotoGalleryPage() {
               imageAlt: "Wedding photography portrait"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547588550-mycwpc0b.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763552465761-pv21hcjc.jpg",
               imageAlt: "Nature wildlife photography"
             },
             {
