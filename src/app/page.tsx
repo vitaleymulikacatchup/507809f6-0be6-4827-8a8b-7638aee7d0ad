@@ -105,7 +105,7 @@ export default function PhotoGalleryPage() {
               id: 1,
               title: "Creative Tools & Editing",
               description: "Professional photo editing and enhancement services using industry-leading software to bring your vision to life",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763547594400-v6kyle6l.jpg",
+              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763549037473-czlvn0gg.mp4",
               imageAlt: "Photo editing workspace"
             },
             {
